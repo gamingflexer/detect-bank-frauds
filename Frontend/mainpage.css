@@ -1,0 +1,64 @@
+@import url("https://tonts. goog-capis:com/055family=Poppins:400,700| Open+Sans: 400") ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.6%;
+}
+body{
+
+    background: rgb(22,22,128);
+    background: linear-gradient(90deg, rgba(22,22,128,1) 1%, rgba(0,212,255,1) 100%);
+  
+}
+h1{
+    margin-top: 1.2rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 1rem;
+}
+p{
+    
+    color: white;
+    font-size: 3rem;
+    
+    
+   
+}
+.con{
+    position: absolute;
+    text-align: center;
+    float: right;
+    margin-top: 30rem;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    
+   
+
+}
+.sub{
+    border-radius: 5rem;
+    width: 3.5rem;
+    height: 3rem
+    
+}
+
+.search1{
+    border-radius: 5rem;
+    width: 20rem;
+    height: 3rem
+}
+
+.sub_con{
+   
+    position: absolute;
+    float: left;
+    margin: 0.8em 0;
+    margin-left: 25%;
+    height:2rem;
+   
+    
+}   
