@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/secondpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="trans">
+     <p>Transcation Id : {{val6}}</p>
+    </div> 
+    <table border="1">
+        <thead>
+            <tr>
+             <th>Time (hrs)  </th>
+             <th>Mode Of Transcation</th>
+             <th>Transcation Amount(rs)</th>
+             <th>Old Balance</th>
+             <th>Current Balance</th>
+             <th>Recepient Id</th>
+             <th>Recepient Old Balance</th>
+             <th>Recepient Current Balance</th>
+             <th>Status Of Transcation</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{val3}}hrs</td>
+                <td>{{val4}}</td>
+                <td>{{val5}}rs</td>
+                <td>{{val7}}rs</td>
+                <td>{{val8}}rs</td>
+                <td>{{val9}}</td>
+                <td>{{old_amount}}</td>
+                <td>{{new_amount}}</td>
+                <td>{{val10}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
